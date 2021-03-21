@@ -4,6 +4,41 @@ Get weather for a city easily with java/kotlin
 
 # Installation
 
+## Maven
+
+```xml
+<repositories>
+	<repository>
+	   <id>jitpack.io</id>
+	   <url>https://jitpack.io</url>
+	</repository>
+</repositories>
+```
+```xml
+<dependency>
+	<groupId>com.github.jan-tennert</groupId>
+	<artifactId>Weather4j</artifactId>
+	<version>Tag</version>
+</dependency>
+```
+
+## Gradle
+
+```gradle
+repositories {
+	maven { url 'https://jitpack.io' }
+}
+```
+```gradle
+dependencies {
+	implementation 'com.github.jan-tennert:Weather4j:Tag'
+}
+```
+
+## Standalone
+
+Add the newest release to you classpath and then add OkHttp and JSON manually. 
+
 # Demo:
 
 ```java
