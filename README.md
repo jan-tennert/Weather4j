@@ -12,6 +12,8 @@ WeatherCity city = weather.getCityByName("London", Weather4j.Unit.METRIC, "en");
 float temperature = city.getTemperature(); //The temperature
 float windspeed = city.getWindSpeed(); //The wind speed
 ...
+//To reload the data use:
+city.reloadData();
 
 city.getDescriptions()[0].getDescription(); //Can be like Clear Sky or Klarer Himmel if you selected german
 city.getDescriptions()[0].getIconURL();
