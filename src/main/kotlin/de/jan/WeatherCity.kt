@@ -29,7 +29,7 @@ class WeatherCity(private val url: URL, private val okhttp: OkHttpClient) {
         val descriptionData = data.getJSONArray("weather")
         for (description in descriptionData) {
             val desc = description as JSONObject
-            descriptions.add(WeatherDescription(desc.getString("description"), URL("http://openweathermap.org/img/w/${desc.getString("icon")}")))
+            descriptions.add(WeatherDescription(desc.getString("description"), URL("http://openweathermap.org/img/w/${desc.getString("icon")}.png")))
         }
         return descriptions.toTypedArray()
     }
