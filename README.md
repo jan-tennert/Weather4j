@@ -7,7 +7,7 @@ Get weather for a city easily with java/kotlin
 # Demo:
 
 ```java
-Weather4j weather = new Weather4j("4a91e44651a7339520ab79858f187b8b");
+Weather4j weather = new Weather4j("apikey"); //Create an api key for free at openweathermap.org/
 WeatherCity city = weather.getCityByName("London", Weather4j.Unit.METRIC, "en");
 float temperature = city.getTemperature(); //The temperature
 float windspeed = city.getWindSpeed(); //The wind speed
