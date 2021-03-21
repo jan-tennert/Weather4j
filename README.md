@@ -17,8 +17,8 @@ city.getDescriptions()[0].getDescription(); //Can be like Clear Sky or Klarer Hi
 city.getDescriptions()[0].getIconURL();
 ```
 
-Weather4j.Unit.METRIC means that the temperature is given in °C
-Weather4j.Unit.IMPERIAL means that the temperature is given in Fahrenheit
+Weather4j.Unit.METRIC means that the temperature is given in °C\
+Weather4j.Unit.IMPERIAL means that the temperature is given in Fahrenheit\
 Weather4j.Unit.STANDARD means that the temperature is given in Kelvin
 
 The description icon can be an image like that:
