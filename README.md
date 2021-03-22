@@ -37,7 +37,7 @@ dependencies {
 
 ## Standalone
 
-Add the newest release to you classpath and then add OkHttp and JSON manually. 
+Won't really work because you need several dependencies. But if you want have a look a pom.xml
 
 # Demo:
 
