@@ -18,7 +18,7 @@ Get weather for a city easily with java/kotlin
 <dependency>
 	<groupId>com.github.jan-tennert</groupId>
 	<artifactId>Weather4j</artifactId>
-	<version>Tag</version>
+	<version>1.0</version>
 </dependency>
 ```
 
@@ -31,7 +31,7 @@ repositories {
 ```
 ```gradle
 dependencies {
-	implementation 'com.github.jan-tennert:Weather4j:Tag'
+	implementation 'com.github.jan-tennert:Weather4j:1.0'
 }
 ```
 
